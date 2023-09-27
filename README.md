@@ -27,7 +27,7 @@ THis application does not require installation
 
 
 ## Link to the video
-https://drive.google.com/file/d/1sbpdTLurAVShkCbRlkUGcqK-UIUPElBY/view![image](https://github.com/alvarezrdk/SGV/assets/128987959/2f86ab82-727a-40b7-ad03-1189005e2f8c)
+https://drive.google.com/file/d/1sbpdTLurAVShkCbRlkUGcqK-UIUPElBY/view
 
 
 ## License
