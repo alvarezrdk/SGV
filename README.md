@@ -23,9 +23,12 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 THis application does not require installation
 
 ## Picture of the applicacion
+<img width="1335" alt="Screenshot 2023-09-26 at 10 44 39 PM" src="https://github.com/alvarezrdk/SGV/assets/128987959/271e0a9e-21a1-4692-b189-2835b0a48f07">
+
 
 ## Link to the video
-![Alt text](image.png)
+https://drive.google.com/file/d/1sbpdTLurAVShkCbRlkUGcqK-UIUPElBY/view![image](https://github.com/alvarezrdk/SGV/assets/128987959/2f86ab82-727a-40b7-ad03-1189005e2f8c)
+
 
 ## License
 Please review the license in the properties of the repository.
