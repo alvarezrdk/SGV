@@ -33,10 +33,7 @@ function generateSVGString(color, letters, shape) {
   } else {
     svgContent = `<rect width="100" height="100" fill="${color}" />`;
   }
-  return `<svg width="100" height="100">
-    ${svgContent}
-    <text x="50%" y="50%" fill="#ffffff" text-anchor="middle" dy=".3em">${letters}</text>
-  </svg>`;
+  return `<!DOCTYPE html><html><head><title>SVG Logo</title></head><body><svg width="300" height="200">${svgContent}</svg></body></html>`;
 }
 
 function createSVGFile(svgString, filePath) {
@@ -48,7 +45,7 @@ async function main() {
   const userInput = await getUserInput();
   const { color, letters } = userInput;
   const svgString = generateSVGString(color, letters);
-  createSVGFile(svgString, 'logo.svg');
+  createSVGFile(svgString, 'logo.html');
 }
 
 main();
