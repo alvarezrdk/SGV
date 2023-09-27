@@ -23,22 +23,6 @@ function getUserInput() {
   ]);
 }
 
-function generateSVGString(color, letters, shape) {
-  let svgContent;
-
-  if (shape === 'circle') {
-    svgContent = `<circle cx="50" cy="50" r="40" fill="${color}" />`;
-  } else if (shape === 'triangle') {
-    svgContent = `<polygon points="50,10 90,90 10,90" fill="${color}" />`;
-  } else {
-    svgContent = `<rect width="100" height="100" fill="${color}" />`;
-  }
-
-  return `<svg width="100" height="100">
-    ${svgContent}
-    <text x="50%" y="50%" fill="#ffffff" text-anchor="middle" dy=".3em">${letters}</text>
-  </svg>`;
-}
 
 function createSVGFile(svgString, filePath) {
   fs.writeFileSync(filePath, svgString);
